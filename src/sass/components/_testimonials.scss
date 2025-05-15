@@ -1,0 +1,153 @@
+.testimonials {
+  position: relative;
+  padding: 70px 0 40px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(248, 248, 248, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.blue-circle {
+  position: absolute;
+  top: 120px;
+  bottom: 0;
+  width: 829px;
+  height: 1158px;
+}
+
+.intro-text {
+  color: #666;
+  text-align: center;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.55;
+  margin-bottom: 36px;
+}
+
+@property --myColor1 {
+  syntax: "<color>";
+  initial-value: #49478c;
+  inherits: false;
+}
+
+@property --myColor2 {
+  syntax: "<color>";
+  initial-value: #9756ff;
+  inherits: false;
+}
+
+.tweet-btn {
+  color: #fff;
+  text-align: center;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.42;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 84px;
+  padding: 15px 30px 15px 30px;
+  border: none;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  display: inline-flex;
+  gap: 12px;
+  z-index: 1;
+  text-decoration: none;
+
+  background: linear-gradient(var(--myColor1), var(--myColor2));
+  transition: --myColor1 250ms linear, --myColor2 250ms linear;
+
+  &:hover {
+    --myColor1: #403d91;
+    --myColor2: #8235fd;
+  }
+}
+
+.tweet-icon {
+  width: 20px;
+  height: 16px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.testimonials-card {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.quote {
+  color: #6c7a87;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+}
+
+.name {
+  color: #222;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.33;
+  margin-top: 10px;
+}
+
+.position {
+  color: #6c7a87;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  margin-bottom: 10px;
+}
+
+.stars {
+  color: #6b4eff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+}
+
+.avatar-circle-dashed {
+  position: absolute;
+  bottom: -46px;
+  right: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 108px;
+  height: 108px;
+
+  border-radius: 100%;
+  border: 2px dashed rgba(219, 219, 219, 0.8);
+
+  background: #fff;
+}

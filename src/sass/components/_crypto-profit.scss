@@ -1,0 +1,96 @@
+.section-item {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.section-header h2 {
+  color: #4f46e5;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 5px 0;
+}
+
+.section-header .see-market {
+  color: #1e3a8a;
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.section-header .see-market::after {
+  content: "→";
+  margin-left: 5px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #4f46e5;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  min-width: 250px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.card:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: -15px;
+  height: 60%;
+  width: 1px;
+  background-color: #e5e7eb;
+}
+
+.card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.card .crypto-name {
+  font-weight: 600;
+  font-size: 16px;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.card .price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #6d28d9;
+  margin-bottom: 10px;
+}
+
+.card .growth {
+  background: #f0fdf4;
+  color: #059669;
+  padding: 5px 10px;
+  border-radius: 12px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+}

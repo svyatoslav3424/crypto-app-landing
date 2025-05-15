@@ -1,0 +1,108 @@
+.instruction-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  text-align: start;
+  width: calc((100% - 31px) / 2);
+
+  @media screen and (min-width: 1280px) {
+    width: calc((100% - 62px) / 3);
+  }
+
+  @media screen and (min-width: 1536px) {
+    width: calc((100% - 93px) / 4);
+  }
+}
+
+.instruction-card-mode-2 {
+  & .description {
+    margin-bottom: 0;
+  }
+
+  & .phone-img{
+    margin-bottom: 75px;
+  }
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0b2238;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  gap: 5px;
+  justify-content: left;
+  align-self: flex-start;
+  margin-bottom: 30px;
+}
+
+.step-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.blue {
+  background-color: rgba(39, 39, 255, 0.842);
+}
+
+.blue2 {
+  background-color: cornflowerblue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.pink {
+  background-color: rgb(255, 81, 240);
+}
+
+.title {
+  color: #0b2238;
+  font-family: "Nunito Sans";
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.18;
+  align-self: flex-start;
+  margin-bottom: 23px;
+}
+
+.description {
+  color: #6c7a87;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  margin-bottom: 65px;
+}
+
+.phone-img {
+  width: 200px;
+  height: auto;
+}
+
+.instruction-section {
+  display: flex;
+  justify-content: center;
+  gap: 31px;
+  margin-bottom: 62px;
+  flex-wrap: wrap;
+}

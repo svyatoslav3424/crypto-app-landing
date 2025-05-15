@@ -1,0 +1,130 @@
+.crypto-section {
+  padding: 40px;
+  margin: auto;
+  padding-bottom: 150px;
+  background-color: #fff;
+}
+
+.crypto-currency {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subtitle {
+  color: #0b2238;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.14;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.crypto-currency-line {
+  background-color: #9373ef;
+  width: 60px;
+  height: 3px;
+  margin-bottom: 14px;
+}
+
+.crypto-wrapper {
+  text-align: start;
+}
+
+.crypto-title {
+  color: #3c387f;
+  font-family: "Nunito Sans";
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.18;
+  margin-bottom: 78px;
+}
+
+.see-market {
+  color: #28387e;
+  text-align: center;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.42;
+  text-decoration: none;
+  padding: 15px 25px 15px 30px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.crypto-arrow {
+  width: 24px;
+  height: 24px;
+}
+
+.crypto-list {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.crypto-card {
+  display: flex;
+  text-align: center;
+  border-left: 1px solid #ddd;
+  padding: 0 20px;
+}
+
+.crypto-card:first-child {
+  border-left: none;
+}
+
+.crypto-img {
+  margin-right: 13px;
+}
+
+.crypto-name {
+  color: #0b2238;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  margin-bottom: 3px;
+}
+
+.crypto-price {
+  background: linear-gradient(86deg, #49478c 7.82%, #9756ff 117.28%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+  font-family: "Nunito Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.18;
+  margin-bottom: 13px;
+}
+
+.change {
+  color: #08967c;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 2;
+  letter-spacing: -0.1px;
+  border-radius: 50px;
+  background: #fff;
+  display: inline-flex;
+  padding: 3px 20px 3px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  box-shadow: 0px 0px 60px 20px rgba(50, 50, 71, 0.2);
+}
+
+.positive::before {
+  content: "▲ ";
+}

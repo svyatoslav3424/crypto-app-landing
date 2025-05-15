@@ -1,0 +1,122 @@
+.start-earing-section {
+  padding-top: 158px;
+  background-image: url("../../images/bg-earing.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 82px;
+  background-color: #f3eefc;
+}
+
+.start-earing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 106px;
+}
+
+.phone {
+  @media screen and (min-width: 1024px) and (max-width: 1279px) {
+    margin-left: 20px;
+  }
+}
+
+.earing-title {
+  color: #000;
+  font-family: "Nunito Sans";
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 1.14;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.earing-text {
+  color: #585858;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.22;
+  margin-bottom: 25px;
+}
+
+// .app-buttons {
+
+// }
+
+.app-buttons img {
+  height: 45px;
+  cursor: pointer;
+}
+
+.invite-banner {
+  position: relative;
+  margin-bottom: 59px;
+}
+
+.invite-icon-left {
+  width: 128px;
+  height: 128px;
+}
+
+.invite-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  text-align: center;
+  font-family: "Nunito Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.8px;
+
+  transform: translate(-50%, -50%);
+}
+
+.invite-picture {
+  width: 100%;
+  height: 200px;
+
+  @media screen and (min-width: 1280px) {
+    height: 230px;
+  }
+}
+
+.invite-item {
+  color: #fff;
+  font-family: "Nunito Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px;
+  letter-spacing: -0.8px;
+}
+
+.invite-banner strong {
+  color: #fff;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  opacity: 0.7;
+}
+
+.logos img {
+  height: 30px;
+  object-fit: contain;
+}
+
+.footer-note {
+  color: #666;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.42;
+  text-align: center;
+}

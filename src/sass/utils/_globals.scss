@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../../images/home-bg.webp");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.stat-title-value {
+  border-right: 1px #dadada solid;
+}
+
+.banner .stat-title-value {
+  padding-right: 22px;
+}
+
+.hero .stat-title-value {
+  padding-right: 50px;
+}
+
+.mark {
+  position: relative;
+  border-radius: 30px 30px 0px 0px;
+  background: #0b2238;
+  padding: 15px 40px 20px;
+  width: 170px;
+  height: 51px;
+  color: #fff;
+  text-align: center;
+  width: max-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mark-rectangle {
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+  right: 25px;
+  height: 3px;
+  background: #0065f2;
+}
+
+.main-title {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.14;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+}

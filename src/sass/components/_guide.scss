@@ -1,0 +1,68 @@
+.guide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 100px;
+}
+
+.image-side img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-side h4 {
+  color: #0b2238;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.14;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.guide-currency-line {
+  background-color: #9373ef;
+  width: 41px;
+  height: 3px;
+  margin-bottom: 14px;
+}
+
+.text-side h1 {
+  color: #0b2238;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 1.14;
+  letter-spacing: -0.5px;
+  margin-bottom: 17px;
+}
+
+.text-side p {
+  color: #4f4f4f;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  background-image: linear-gradient(to right, #6a5af9, #7c3aed);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  line-height: 1.71;
+  font-family: "Nunito Sans", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  transition: opacity 300ms ease;
+  opacity: 0.9;
+}
+
+.button:hover {
+  opacity: 1;
+}

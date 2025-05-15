@@ -1,0 +1,62 @@
+.faq-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px ;
+  margin-bottom: 113px;
+}
+
+.faq-item {
+  display: flex;
+  gap: 19px;
+  width: 468px;
+  align-self: flex-start;
+}
+
+.faq-item-title {
+  color: #0b2238;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.33;
+}
+
+.faq-item-description {
+  color: #6c7a87;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.50;
+  letter-spacing: 0.1px;
+}
+
+.faq-title {
+  color: #0b2238;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  margin-bottom: 20px;
+}
+
+.faq-title-accent {
+  color: #0065f2;
+}
+
+.faq-subtitle {
+  color: #0b2238;
+  text-align: center;
+  font-family: "Nunito Sans";
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.18;
+  margin-bottom: 120px;
+}
+
+.faq-svg {
+  width: 20px;
+  height: 20px;
+}
